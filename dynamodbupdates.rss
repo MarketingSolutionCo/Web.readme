@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+   <channel>
+      <title>Amazon DynamoDB Developer Guide Updates</title>
+      <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/</link>
+      <description/>
+      <atom:link href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/dynamodbupdates.rss"
+                 rel="self"
+                 type="application/rss+xml"/>
+      <lastBuildDate>Sat, 23 Sep 2023 01:03:18 GMT</lastBuildDate>
+      <item>
+         <title>Troubleshooting section</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You can now find &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Troubleshooting.html"&gt;
+                        troubleshooting content&lt;/a&gt; for latency and throttling issues that might
+                    occur in your DynamoDB tables.</description>
+         <pubDate>Mon, 13 Mar 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Troubleshooting_section_2023-03-13</guid>
+      </item>
+      <item>
+         <title>Deletion protection for Amazon DynamoDB</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Deletion protection is now available for Amazon DynamoDB tables in all AWS
+                    Regions. DynamoDB now makes it possible for you to protect your tables from
+                    accidental deletion when performing regular table management operations.</description>
+         <pubDate>Wed, 8 Mar 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Deletion_protection_for_Amazon_DynamoDB_2023-03-08</guid>
+      </item>
+      <item>
+         <title>AWS CloudFormation support for KDSD in global tables</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Amazon Kinesis Data Streams for DynamoDB now supports AWS CloudFormation for DynamoDB global tables, which means
+                    you can enable streaming to an Amazon Kinesis Data Streams on your DynamoDB global tables with
+                    CloudFormation templates.</description>
+         <pubDate>Wed, 15 Feb 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#AWS_CloudFormation_support_for_KDSD_in_global_tables_2023-02-15</guid>
+      </item>
+      <item>
+         <title>DynamoDB local supports 100 actions per transaction</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You can now perform up to 100 actions in a single transaction on DynamoDB
+                    local.</description>
+         <pubDate>Thu, 9 Feb 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DynamoDB_local_supports_100_actions_per_transaction_2023-02-09</guid>
+      </item>
+      <item>
+         <title>Using the DynamoDB Well-Architected Lens to optimize your DynamoDB workload</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You can now use the &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-wal.html"&gt;DynamoDB
+                        Well-Architected Lens&lt;/a&gt;, a collection of design principles and
+                    guidance that you can use for designing well-architected DynamoDB workloads.</description>
+         <pubDate>Fri, 3 Feb 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Using_the_DynamoDB_Well-Architected_Lens_to_optimize_your_DynamoDB_workload_2023-02-03</guid>
+      </item>
+      <item>
+         <title>PartiQL GovGloud availability</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html"&gt;PartiQL—a SQL-compatible query language for Amazon DynamoDB&lt;/a&gt; is now
+                    supported in AWS GovCloud (US-East) and AWS GovCloud (US-West).</description>
+         <pubDate>Wed, 21 Dec 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#PartiQL_GovGloud_availability_2022-12-21</guid>
+      </item>
+      <item>
+         <title>Single installation suite for NoSQL Workbench and DynamoDB local</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html"&gt;NoSQL Workbench
+                        for DynamoDB&lt;/a&gt; now includes a guided &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"&gt;DynamoDB
+                        local&lt;/a&gt; installation process to streamline setting up your DynamoDB local
+                    development environment.</description>
+         <pubDate>Tue, 6 Dec 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Single_installation_suite_for_NoSQL_Workbench_and_DynamoDB_local_2022-12-06</guid>
+      </item>
+      <item>
+         <title>Bulk import from S3</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Amazon DynamoDB now makes it easier for you to migrate and load data into new DynamoDB
+                    tables by &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/S3DataImport.HowItWorks.html"&gt;supporting bulk data imports from Amazon S3&lt;/a&gt;.</description>
+         <pubDate>Thu, 18 Aug 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Bulk_import_from_S3_2022-08-18</guid>
+      </item>
+      <item>
+         <title>Enhanced integration with Service Quotas </title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html"&gt;Service Quotas&lt;/a&gt; now enables you to proactively manage your account
+                    and table quotas. You can view current values, set alarms for when your
+                    utilization of a quota exceeds a configurable threshold, and more.</description>
+         <pubDate>Wed, 15 Jun 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Enhanced_integration_with_Service_Quotas__2022-06-15</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench adds table and GSI support</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You can now use NoSQL Workbench for table and global secondary index (GSI)
+                        &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.API.html#HowItWorks.API.ControlPlane"&gt;control plane operations&lt;/a&gt; such as CreateTable, UpdateTable, and
+                    DeleteTable.</description>
+         <pubDate>Thu, 2 Jun 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_adds_table_and_GSI_support_2022-06-02</guid>
+      </item>
+      <item>
+         <title>Standard-infrequent access table class now available in China</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Amazon DynamoDB Standard-Infrequent Access table class is available in China
+                    Regions. Reduce your &lt;a href="https://www.amazonaws.cn/en/dynamodb/dynamodb-standard-ia/" rel="noopener noreferrer" target="_blank"&gt;DynamoDB costs
+                        by up to 60 percent&lt;/a&gt;, by using this new table class for tables that
+                    store infrequently accessed data. </description>
+         <pubDate>Mon, 18 Apr 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Standard-infrequent_access_table_class_now_available_in_China_2022-04-18</guid>
+      </item>
+      <item>
+         <title>Increase in default service quotas and table management operations</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-tables"&gt;DynamoDB increased the default quota for the number of tables per account and
+                        Region&lt;/a&gt; from 256 to 2,500 tables, and increased the number of
+                    concurrent table management operations from 50 to 500.</description>
+         <pubDate>Wed, 9 Mar 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Increase_in_default_service_quotas_and_table_management_operations_2022-03-09</guid>
+      </item>
+      <item>
+         <title>Optional limiting of items with PartiQL for DynamoDB</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB can &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html"&gt;limit the
+                        number of items processed in PartiQL&lt;/a&gt; for DynamoDB operations as an
+                    optional parameter on each request. </description>
+         <pubDate>Tue, 8 Mar 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Optional_limiting_of_items_with_PartiQL_for_DynamoDB_2022-03-08</guid>
+      </item>
+      <item>
+         <title>AWS Backup integration available in China (Beijing and Ningxia) Regions</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorksAWS.html"&gt;AWS Backup&lt;/a&gt; now integrates with DynamoDB in the China (Beijing and Ningxia)
+                    Regions. You can meet compliance and business continuity requirements more
+                    easily through enhanced backup features in AWS Backup, such as cross-account and
+                    cross-Region backups.</description>
+         <pubDate>Wed, 26 Jan 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#AWS_Backup_integration_available_in_China_(Beijing_and_Ningxia)_Regions_2022-01-26</guid>
+      </item>
+      <item>
+         <title>Throughput capacity information through PartiQL API calls</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB can return the throughput capacity consumed by &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html"&gt;PartiQL
+                        API&lt;/a&gt; calls to help you optimize your queries and throughput
+                    costs.</description>
+         <pubDate>Tue, 18 Jan 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Throughput_capacity_information_through_PartiQL_API_calls_2022-01-18</guid>
+      </item>
+      <item>
+         <title>AWS Backup integration</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB now helps you meet compliance and business continuity requirements more
+                    easily through enhanced backup features in &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorksAWS.html"&gt;AWS Backup&lt;/a&gt;, such as cross-account and cross-Region backups.</description>
+         <pubDate>Wed, 24 Nov 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#AWS_Backup_integration_2021-11-24</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench import/export datasets in CSV</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html"&gt;NoSQL Workbench
+                        for Amazon DynamoDB&lt;/a&gt; now enables you to import and automatically populate
+                    sample data to help build and visualize your data models.</description>
+         <pubDate>Mon, 11 Oct 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_import/export_datasets_in_CSV_2021-10-11</guid>
+      </item>
+      <item>
+         <title>Filter and retrieve Amazon DynamoDB Streams data-plane activity with AWS CloudTrail</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Amazon DynamoDB now provides you more granular control of audit logging by enabling
+                    you to &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/governance-controls.html"&gt;filter
+                        Streams data-plane API activity in AWS CloudTrail.&lt;/a&gt;</description>
+         <pubDate>Wed, 22 Sep 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Filter_and_retrieve_Amazon_DynamoDB_Streams_data-plane_activity_with_AWS_CloudTrail_2021-09-22</guid>
+      </item>
+      <item>
+         <title>Updated console</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>The &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ConsoleDynamoDB.html"&gt;DynamoDB
+                        console&lt;/a&gt; is now your default console to help you manage data more
+                    easily, simplify your common tasks, and give you faster access to resources and
+                    features.</description>
+         <pubDate>Wed, 25 Aug 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Updated_console_2021-08-25</guid>
+      </item>
+      <item>
+         <title>DAX SDK For Java 2.x is now available</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.client.run-application-java.html"&gt;DynamoDB Accelerator (DAX) SDK for Java 2.x&lt;/a&gt; is now available and is
+                    compatible with the AWS SDK for Java 2.x. You can benefit from the latest
+                    features, including non-blocking I/O.</description>
+         <pubDate>Thu, 29 Jul 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DAX_SDK_For_Java_2.x_is_now_available_2021-07-29</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench feature updates including control plane operations</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html"&gt;NoSQL Workbench
+                        for Amazon DynamoDB&lt;/a&gt; now helps you run frequent operations more easily to
+                    modify and access table data.</description>
+         <pubDate>Wed, 28 Jul 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_feature_updates_including_control_plane_operations_2021-07-28</guid>
+      </item>
+      <item>
+         <title>DynamoDB global tables are now available in the Asia Pacific Region</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html"&gt;DynamoDB global
+                        tables&lt;/a&gt; are now available in the Asia Pacific (Osaka) Region.
+                    Replicate your DynamoDB tables automatically across your choice of 22 AWS
+                    Regions.</description>
+         <pubDate>Wed, 28 Jul 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DynamoDB_global_tables_are_now_available_in_the_Asia_Pacific_Region_2021-07-28</guid>
+      </item>
+      <item>
+         <title>DAX is now available in China</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html"&gt;DynamoDB Accelerator
+                        (DAX)&lt;/a&gt; is now available in the China (Beijing) Region, operated by
+                    Sinnet.</description>
+         <pubDate>Wed, 28 Jul 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DAX_is_now_available_in_China_2021-07-28</guid>
+      </item>
+      <item>
+         <title>DAX encryption in transit</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html"&gt;DynamoDB Accelerator
+                        (DAX)&lt;/a&gt; now supports encryption in transit of data between your
+                    applications and DAX clusters, and between the nodes within a DAX
+                    cluster.</description>
+         <pubDate>Sat, 24 Jul 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DAX_encryption_in_transit_2021-07-24</guid>
+      </item>
+      <item>
+         <title>CloudFormation and CloudTrail integration</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html"&gt;Integration with AWS CloudFormation&lt;/a&gt; and security enhancements with
+                    CloudFormation data-plane logging.</description>
+         <pubDate>Fri, 18 Jun 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#CloudFormation_and_CloudTrail_integration_2021-06-18</guid>
+      </item>
+      <item>
+         <title>CloudFormation now supported for global tables</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html"&gt;Amazon DynamoDB
+                        global tables&lt;/a&gt; now support &lt;a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html"&gt;AWS CloudFormation&lt;/a&gt;, which means you can create global tables and manage
+                    their settings with CloudFormation templates.</description>
+         <pubDate>Fri, 14 May 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#CloudFormation_now_supported_for_global_tables_2021-05-14</guid>
+      </item>
+      <item>
+         <title>Amazon DynamoDB local support for Java 2.x</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You now can use the &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/JavaDocumentAPIItemCRUD.html"&gt;AWS SDK for Java 2.x&lt;/a&gt; with &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"&gt;DynamoDB
+                        local&lt;/a&gt;, the downloadable version of Amazon DynamoDB. With DynamoDB local, you
+                    can develop and test applications by using a version of DynamoDB running in your
+                    local development environment without incurring any additional costs.</description>
+         <pubDate>Mon, 3 May 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_DynamoDB_local_support_for_Java_2.x_2021-05-03</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench now supports AWS CloudFormation</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html"&gt;NoSQL Workbench
+                        for Amazon DynamoDB&lt;/a&gt; now supports &lt;a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"&gt;AWS CloudFormation&lt;/a&gt;, so
+                    you can manage and modify DynamoDB data models with CloudFormation templates. In
+                    addition, you now can configure table capacity settings in NoSQL
+                    Workbench.</description>
+         <pubDate>Thu, 22 Apr 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_now_supports_AWS_CloudFormation_2021-04-22</guid>
+      </item>
+      <item>
+         <title>DynamoDB and AWS Amplify now feature integration</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amplify/index.html"&gt;AWS Amplify&lt;/a&gt; now
+                    orchestrates multiple DynamoDB global secondary index updates in a single
+                    deployment.</description>
+         <pubDate>Tue, 20 Apr 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DynamoDB_and_AWS_Amplify_now_feature_integration_2021-04-20</guid>
+      </item>
+      <item>
+         <title>AWS CloudTrail to log Amazon DynamoDB Streams data-plane APIs</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You now can use &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/aws-resource-dynamodb-globaltable.html"&gt;AWS CloudTrail to log Amazon DynamoDB Streams data-plane API activity&lt;/a&gt;, and monitor and
+                    investigate item-level changes in your DynamoDB tables.</description>
+         <pubDate>Tue, 20 Apr 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#AWS_CloudTrail_to_log_Amazon_DynamoDB_Streams_data-plane_APIs_2021-04-20</guid>
+      </item>
+      <item>
+         <title>Amazon Kinesis Data Streams for Amazon DynamoDB now supports AWS CloudFormation</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/kds.html"&gt;Amazon Kinesis Data Streams for Amazon DynamoDB&lt;/a&gt;now supports AWS CloudFormation, which means you can enable
+                    streaming to an Amazon Kinesis data stream on your DynamoDB tables with CloudFormation
+                    templates. By streaming your DynamoDB data changes to a Kinesis data stream, you can
+                    build advanced streaming applications with AAmazon Kinesis services.</description>
+         <pubDate>Mon, 12 Apr 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_Kinesis_Data_Streams_for_Amazon_DynamoDB_now_supports_AWS_CloudFormation_2021-04-12</guid>
+      </item>
+      <item>
+         <title>Amazon Keyspaces now offers FIPS 140-2 compliant endpoints</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/keyspaces/index.html"&gt;Amazon Keyspaces (for Apache Cassandra)&lt;/a&gt; now
+                    offers Federal Information Processing Standards (FIPS) 140-2 compliant endpoints
+                    to help you run highly regulated workloads more easily. FIPS 140-2 is a US and
+                    Canadian government standard that specifies the security requirements for
+                    cryptographic modules that protect sensitive information.</description>
+         <pubDate>Thu, 8 Apr 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_Keyspaces_now_offers_FIPS_140-2_compliant_endpoints_2021-04-08</guid>
+      </item>
+      <item>
+         <title>Amazon EC2 T3 instances for DAX</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DAX now supports &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.Burstable.html"&gt;Amazon EC2 T3
+                        instance types&lt;/a&gt;, which provide a baseline level of CPU performance
+                    with the ability to burst above the baseline when needed.</description>
+         <pubDate>Mon, 15 Feb 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_EC2_T3_instances_for_DAX_2021-02-15</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench for Amazon DynamoDB support for PartiQL</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You now can use the &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.querybuilder.operationbuilder.html"&gt;NoSQL Workbench for DynamoDB&lt;/a&gt; to build &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html"&gt;PartiQL&lt;/a&gt;
+                    statements for DynamoDB.</description>
+         <pubDate>Fri, 4 Dec 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_for_Amazon_DynamoDB_support_for_PartiQL_2020-12-04</guid>
+      </item>
+      <item>
+         <title>PartiQL for DynamoDB</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You now can use &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html"&gt;PartiQL for
+                        DynamoDB&lt;/a&gt;—a SQL-compatible query language—to interact with DynamoDB tables
+                    and run ad hoc queries by using the AWS Management Console, AWS Command Line Interface, and DynamoDB APIs for
+                    PartiQL.</description>
+         <pubDate>Mon, 23 Nov 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#PartiQL_for_DynamoDB_2020-11-23</guid>
+      </item>
+      <item>
+         <title>Amazon Kinesis Data Streams for Amazon DynamoDB</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You now can use &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/kds.html"&gt;Amazon Kinesis Data Streams for Amazon DynamoDB&lt;/a&gt;
+                    with your DynamoDB tables to capture item-level changes and replicate them to a
+                    Kinesis data stream.</description>
+         <pubDate>Mon, 23 Nov 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_Kinesis_Data_Streams_for_Amazon_DynamoDB_2020-11-23</guid>
+      </item>
+      <item>
+         <title>DynamoDB table export</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You can now &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/S3DataExport.HowItWorks.html"&gt;export your DynamoDB tables to Amazon S3&lt;/a&gt;, enabling you to perform analytics
+                    and complex queries on your data with services like Athena, AWS Glue, and
+                    Lake Formation.</description>
+         <pubDate>Mon, 9 Nov 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DynamoDB_table_export_2020-11-09</guid>
+      </item>
+      <item>
+         <title>Support for empty values</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB now supports empty values for non-key String and Binary attributes in
+                    DynamoDB tables. Empty value support gives you greater flexibility to use
+                    attributes for a broader set of use cases without having to transform such
+                    attributes before sending them to DynamoDB. List, Map, and Set data types also
+                    support empty String and Binary values.</description>
+         <pubDate>Mon, 18 May 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Support_for_empty_values_2020-05-18</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench for Amazon DynamoDB support for Linux</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>NoSQL Workbench for Amazon DynamoDB is now supported on &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.settingup.html"&gt;Linux-
+                        Ubuntu , Fedora and Debian&lt;/a&gt;.</description>
+         <pubDate>Mon, 4 May 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_for_Amazon_DynamoDB_support_for_Linux_2020-05-04</guid>
+      </item>
+      <item>
+         <title>CloudWatch Contributor Insights for DynamoDB – GA</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/contributorinsights.html"&gt;CloudWatch
+                        Contributor Insights for DynamoDB&lt;/a&gt; is generally available. CloudWatch
+                    Contributor Insights for DynamoDB is a diagnostic tool that provides an at-a-glance
+                    view of your DynamoDB table's traffic trends and helps you identify your table's
+                    most frequently accessed keys (also known as hot keys).</description>
+         <pubDate>Thu, 2 Apr 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#CloudWatch_Contributor_Insights_for_DynamoDB_–_GA_2020-04-02</guid>
+      </item>
+      <item>
+         <title>Upgrading global tables</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You now can update your global tables from version 2017.11.29 to the &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_upgrade.html"&gt;latest version of global tables (2019.11.21)&lt;/a&gt;, with a few clicks in
+                    the DynamoDB Console. By upgrading the version of your global tables, you can
+                    increase the availability of your DynamoDB tables easily by extending your existing
+                    tables into additional AWS Regions, with no table rebuilds required. </description>
+         <pubDate>Mon, 16 Mar 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Upgrading_global_tables_2020-03-16</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench for Amazon DynamoDB – GA</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html"&gt;NoSQL Workbench
+                        for Amazon DynamoDB&lt;/a&gt; is generally available. Use the NoSQL Workbench to
+                    design, create, query, and manage DynamoDB tables.</description>
+         <pubDate>Mon, 2 Mar 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_for_Amazon_DynamoDB_–_GA_2020-03-02</guid>
+      </item>
+      <item>
+         <title>DAX cache cluster metrics</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DAX support for new &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/dax-metrics-dimensions-dax.html"&gt;CloudWatch metrics&lt;/a&gt;, that allow you to better understand your DAX
+                    cluster's performance. </description>
+         <pubDate>Thu, 6 Feb 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DAX_cache_cluster_metrics_2020-02-06</guid>
+      </item>
+      <item>
+         <title>CloudWatch Contributor Insights for DynamoDB – Preview</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>&lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/contributorinsights.html"&gt;CloudWatch
+                        Contributor Insights for DynamoDB&lt;/a&gt; is a diagnostic tool that provides an
+                    at-a-glance view of your DynamoDB table's traffic trends and helps you identify
+                    your table's most frequently accessed keys (also known as hot keys).</description>
+         <pubDate>Tue, 26 Nov 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#CloudWatch_Contributor_Insights_for_DynamoDB_–_Preview_2019-11-26</guid>
+      </item>
+      <item>
+         <title>Adaptive capacity support for imbalanced workload</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Amazon DynamoDB adaptive capacity now &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html#bp-partition-key-partitions-adaptive-split"&gt;handles&lt;/a&gt; imbalanced workloads better by isolating frequently
+                    accessed items automatically. If your application drives disproportionately high
+                    traffic to one or more items, DynamoDB will rebalance your partitions such that
+                    frequently accessed items do not reside on the same partition.</description>
+         <pubDate>Tue, 26 Nov 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Adaptive_capacity_support_for_imbalanced_workload_2019-11-26</guid>
+      </item>
+      <item>
+         <title>Support for customer managed keys</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB now &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/EncryptionAtRest.html"&gt;supports
+                        customer managed keys&lt;/a&gt;, which means you can have full control over how you
+                    encrypt and manage the security of your DynamoDB data.</description>
+         <pubDate>Mon, 25 Nov 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Support_for_customer_managed_keys_2019-11-25</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench support for DynamoDB local
+                        (Downloadable Version)</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>The NoSQL Workbench now supports connecting to &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"&gt;DynamoDB local
+                        (Downloadable Version)&lt;/a&gt; to design, create, query, and manage DynamoDB
+                    tables.</description>
+         <pubDate>Fri, 8 Nov 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_support_for_DynamoDB_local
+________________________(Downloadable_Version)_2019-11-08</guid>
+      </item>
+      <item>
+         <title>NoSQL Workbench - Preview</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>This is the initial release of NoSQL Workbench for DynamoDB. Use NoSQL Workbench
+                    to design, create, query, and manage DynamoDB tables. For more information, see
+                        &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html"&gt;NoSQL Workbench for Amazon DynamoDB
+                    (Preview)&lt;/a&gt;.</description>
+         <pubDate>Mon, 16 Sep 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#NoSQL_Workbench_-_Preview_2019-09-16</guid>
+      </item>
+      <item>
+         <title>DAX adds support for transactional operations using Python and .NET</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DAX supports the &lt;code class="code"&gt;TransactWriteItems&lt;/code&gt; and
+                        &lt;code class="code"&gt;TransactGetItems&lt;/code&gt; APIs for applications written in Go, Java,
+                    .NET, Node.js, and Python. For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html"&gt;In-Memory Acceleration with
+                    DAX&lt;/a&gt;.</description>
+         <pubDate>Thu, 14 Feb 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DAX_adds_support_for_transactional_operations_using_Python_and_.NET_2019-02-14</guid>
+      </item>
+      <item>
+         <title>Amazon DynamoDB local (Downloadable Version) Updates</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB local (Downloadable Version) now supports transactional APIs, on-demand
+                    read/write capacity, capacity reporting for read and write operations, and 20
+                    global secondary indexes. For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.UsageNotes.html#DynamoDBLocal.Differences"&gt;Differences Between Downloadable DynamoDB and the DynamoDB Web
+                    Service&lt;/a&gt;.</description>
+         <pubDate>Mon, 4 Feb 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_DynamoDB_local_(Downloadable_Version)_Updates_2019-02-04</guid>
+      </item>
+      <item>
+         <title>Amazon DynamoDB On-Demand</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB on-demand is a flexible billing option capable of serving thousands of
+                    requests per second without capacity planning. DynamoDB on-demand offers
+                    pay-per-request pricing for read and write requests so that you pay only for
+                    what you use. For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadWriteCapacityMode.html"&gt;Read/Write Capacity
+                        Mode&lt;/a&gt;.</description>
+         <pubDate>Wed, 28 Nov 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_DynamoDB_On-Demand_2018-11-28</guid>
+      </item>
+      <item>
+         <title>Amazon DynamoDB Transactions</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB transactions make coordinated, all-or-nothing changes to multiple items
+                    both within and across tables, providing atomicity, consistency, isolation, and
+                    durability (ACID) in DynamoDB. For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transactions.html"&gt;Amazon DynamoDB Transactions&lt;/a&gt;.</description>
+         <pubDate>Tue, 27 Nov 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_DynamoDB_Transactions_2018-11-27</guid>
+      </item>
+      <item>
+         <title>Amazon DynamoDB encrypts all customer data at rest</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB encryption at rest provides an additional layer of data protection by
+                    securing your data in the encrypted table, including its primary key, local and
+                    global secondary indexes, streams, global tables, backups, and DAX clusters
+                    whenever the data is stored in durable media. For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/EncryptionAtRest.html"&gt;Amazon DynamoDB Encryption at
+                        Rest&lt;/a&gt;.</description>
+         <pubDate>Thu, 15 Nov 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Amazon_DynamoDB_encrypts_all_customer_data_at_rest_2018-11-15</guid>
+      </item>
+      <item>
+         <title>Use Amazon DynamoDB Local More Easily with the New Docker Image</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>Now, it’s easier to use DynamoDB local, the downloadable version of DynamoDB, to help
+                    you develop and test your DynamoDB applications by using the new DynamoDB local Docker
+                    image. For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.Docker.html"&gt;DynamoDB (Downloadable Version)
+                        and Docker&lt;/a&gt;.</description>
+         <pubDate>Wed, 22 Aug 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Use_Amazon_DynamoDB_Local_More_Easily_with_the_New_Docker_Image_2018-08-22</guid>
+      </item>
+      <item>
+         <title>DynamoDB Accelerator (DAX) Adds Support for Encryption at Rest</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>DynamoDB Accelerator (DAX) now supports encryption at rest for new DAX clusters to
+                    help you accelerate reads from Amazon DynamoDB tables in security-sensitive
+                    applications that are subject to strict compliance and regulatory requirements.
+                    For more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAXEncryptionAtRest.html"&gt;DAX Encryption at Rest&lt;/a&gt;.</description>
+         <pubDate>Thu, 9 Aug 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DynamoDB_Accelerator_(DAX)_Adds_Support_for_Encryption_at_Rest_2018-08-09</guid>
+      </item>
+      <item>
+         <title>DynamoDB point-in-time recovery (PITR) adds support for restoring deleted
+                    tables</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>If you delete a table with point-in-time recovery enabled, a system backup is
+                    automatically created and is retained for 35 days (at no additional cost). For
+                    more information, see &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/pointintimerecovery_beforeyoubegin.html"&gt;Before You Begin
+                        Using Point In Time Recovery&lt;/a&gt;.</description>
+         <pubDate>Tue, 7 Aug 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#DynamoDB_point-in-time_recovery_(PITR)_adds_support_for_restoring_deleted
+____________________tables_2018-08-07</guid>
+      </item>
+      <item>
+         <title>Updates now available over RSS</title>
+         <link>https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DocumentHistory.html</link>
+         <description>You can now subscribe to the &lt;a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/dynamodbupdates.rss"&gt;RSS
+                        feed&lt;/a&gt; (at the top left corner of this page) to receive notifications
+                    about updates to the Amazon DynamoDB Developer Guide.</description>
+         <pubDate>Tue, 3 Jul 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/#Updates_now_available_over_RSS_2018-07-03</guid>
+      </item>
+   </channel>
+</rss>
